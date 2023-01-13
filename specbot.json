@@ -1,0 +1,189 @@
+{
+    "intents": [
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "info",
+                "information"
+            ],
+            "responses": [
+                "Interact with the bot by typing in commands.\nMake sure to spell your words correctly, so that the bot understands them.\nWhen chatting with ChatBot, type \"spec\" or \"specification\" to go to SpecBot,\nwho will answer all the questions about the specification and the exams.\nWhen chatting with SpecBot, type \"quit\" to go back to chatting with ChatBot.\nWhen chatting with ChatBot, type \"quit\" to stop chatting."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "systemsarchitecture",
+            "patterns": [
+                "systems architecture",
+                "architecture",
+                "cpu",
+                "cpu performance",
+                "embedded systems",
+                "embedded"
+            ],
+            "responses": [
+                "1.1 - Systems Architecture - This topic has 3 subtopics: \n  1.1.1 Architecture of the CPU \n  1.1.2 CPU Performance \n  1.1.3 Embedded systems\nIn this topic, you learn about the architecture of the CPU. You will discover how the basic process of the computer, the fetch-execute cycle, works, and learn about the structure about the CPU and what they all do. You will also learn about clock speed, cache and cores, terms you might have heard of, and how they affect the performance of the CPU.\nMore information can be found on page 6 of the specification."
+            ]
+        },
+        {
+            "tag": "memorystorage",
+            "patterns": [
+                "memory",
+                "storage",
+                "primary storage",
+                "secondary storage",
+                "units",
+                "data storage",
+                "data",
+                "compression"
+            ],
+            "responses": [
+                "1.2 - Memory and Storage - This topic has 5 subtopics: \n  1.2.1 Primary storage (Memory) \n  1.2.2 Secondary storage \n  1.2.3 Units \n  1.2.4 Data storage \n  1.2.5 Compression\nThis topic is all about memory. You will cover the different types of memory, what they do, and why some are better than others, and why. You will learn to convert to and from different numerical systems, and how to perform a binary shift. You will also learn how data is stored in different mediums, such as in images and sound, and how compression can affect the data.\nMore information can be found on page 7 of the specification."
+            ]
+        },
+        {
+            "tag": "computernetworks",
+            "patterns": [
+                "networks",
+                "computer networks",
+                "connections",
+                "protocols",
+                "networks and topologies",
+                "topologies",
+                "wired",
+                "wireless",
+                "wired and wireless networks",
+                "protocols and layers"
+            ],
+            "responses": [
+                "1.3 - Computer networks, connections and protocols - This topic has 2 subtopics: \n  1.3.1 Networks and topologies \n  1.3.2 Wired and wireless networks, protocols and layers\nIn this topic you will learn about networks, how they are connected and what protocols they use to do so. You might have heard of LAN and WLAN, but in this topic you will cover a wide variety of networks, and how they are used all over the world. You will also learn about the 'shape' of these networks, called topologies,and how that affects them. Of course, you will also learn a bit about how these networks are secured, and what protocols they use to do so.\nMore information can be found on page 10 of the specification."
+            ]
+        },
+        {
+            "tag": "networksecurity",
+            "patterns": [
+                "network security",
+                "security",
+                "threats to computers",
+                "computer systems",
+                "preventing vulnerabilities",
+                "vulnerabilities"
+            ],
+            "responses": [
+                "1.4 - Network security - This topic has 2 subtopics: \n  1.4.1 Threats to computer systems and networks \n  1.4.2 Identifying and preventing vulnerabilities\nIn this topic you will learn about network security, from the forms of attack, of which there are many, to the many ways one can prevent such an attack. You will learn about how cyber security is not under threat as much from cyber attacks, but instead is more prone to phishing, and how this came about, whilst also knowing what to do to keep you as secure as possible.\nMore information can be found on page 12 of the specification."
+            ]
+        },
+        {
+            "tag": "systemssoftware",
+            "patterns": [
+                "systems software",
+                "software",
+                "operating systems",
+                "utility software",
+                "os"
+            ],
+            "responses": [
+                "1.5 - Systems software - This topic has 2 subtopics: \n  1.5.1 Operating systems \n  1.5.2 Utility software\nIn this topic you will learn all about operating systems. You will learn why we need them, how this came about, and all the things they do that we take for granted. You will also learn about utility software, which assissts the operating system, and why it is useful to us.\nMore information can be found on page 13 of the specification."
+            ]
+        },
+        {
+            "tag": "ethicsoftechnology",
+            "patterns": [
+                "ethics",
+                "legal",
+                "cultural",
+                "culture",
+                "environment",
+                "environmental",
+                "digital technology",
+                "impact of digital technology"
+            ],
+            "responses": [
+                "1.6 - Ethical, legal, cultural and environmental impacts of digital technology - This topic has 1 subtopics: \n  1.6.1 Ethical, legal, cultural and environmental impact\nIn this topic, you will learn about the impacts of digital technology. Since its advent, steadily the whole world has come to revolve around technology, and you need to be informed about how this has changed the world. You will cover the various issues around it, and all the laws relating to technology.\nMore information can be found on page 14 of the specification."
+            ]
+        },
+        {
+            "tag": "algorithms",
+            "patterns": [
+                "algorithm",
+                "algorithms",
+                "computational thinking",
+                "creating and refining algorithms",
+                "designing algorithms",
+                "searching and sorting algorithms",
+                "algo",
+                "algos"
+            ],
+            "responses": [
+                "2.1 - Algorithms - This topic has 3 subtopics: \n  2.1.1 Computational thinking \n  2.1.2 Designing, creating and refining algorithms \n  2.1.3 Searching and sorting algorithms\nIn this topic you will learn about algorithms and how they are used. You will learn how an algorithm \"thinks\" using flowcharts, and will also study how commonly used searching and sorting algorithms are used.\nMore information can be found on page 15 of the specification."
+            ]
+        },
+        {
+            "tag": "programmingfundamentals",
+            "patterns": [
+                "fundamentals",
+                "programming fundamentals",
+                "data types",
+                "programming techniques",
+                "programming skills",
+                "basics",
+                "programming basics"
+            ],
+            "responses": [
+                "2.2 - Programming fundamentals - This topic has 3 subtopics: \n  2.2.1 Programming fundamentals \n  2.2.2 Data types \n  2.2.3 Additional programming techniques\nIn this topic, you will learn and build upon the fundamentals of programming. You will learn about sequencing, selection and iteration, the three basic ways a program is structured. You will also learn about the main data types you will encounter whilst programming, and learn some techniques to using them.\nMore information can be found on page 17 of the specification."
+            ]
+        },
+        {
+            "tag": "robustprograms",
+            "patterns": [
+                "producing robust programs",
+                "robust programs",
+                "programs",
+                "defensive design",
+                "testing"
+            ],
+            "responses": [
+                "2.3 - Producing robust programs - This topic has 2 subtopics: \n  2.3.1 Defensive design \n  2.3.2 Testing\nIn this topic you will learn how to make your programs robust, so that they can be used easily, but without breaking. You will learn about input validation and the benefits of maintainability, whilst also learning how to thoroughly test your programs, so that they will work no matter what.\nMore information can be found on page 19 of the specification."
+            ]
+        },
+        {
+            "tag": "booleanlogic",
+            "patterns": [
+                "boolean logic",
+                "logic",
+                "boolean"
+            ],
+            "responses": [
+                "2.4 - Boolean logic - This topic has 1 subtopics: \n  2.4.1 Boolean logic\nIn this topic you will learn about boolean logic, a cornerstone of programming. When learning this topic, you will encounter 3 very simple operators: AND, OR and NOT. Though these may seem simple, you can describe how any program functions with them, making them a vital skill for you to learn.\nMore information can be found on page 20 of the specification."
+            ]
+        },
+        {
+            "tag": "languagesandides",
+            "patterns": [
+                "programming languages",
+                "languages",
+                "IDEs",
+                "integrated development environments"
+            ],
+            "responses": [
+                "2.5 - Programming languages and Integrated Development Environments - This topic has 2 subtopics: \n  2.5.1 Languages \n  2.5.2 The Integrated Development Environment (IDE)\nIn this topic you will learn about the types of programming languages, how they work and how you can use IDEs to help you. You will learn about high- and low-level programming languages, what they mean to the computer, and all the functions that an IDE provides.\nMore information can be found on page 21 of the specification.\n"
+            ]
+        },
+        {
+            "tag": "exams",
+            "patterns": [
+                "exams",
+                "exam",
+                "examination",
+                "test",
+                "assessment",
+                "nea",
+                "non examined assessment"
+            ],
+            "responses": [
+                "There are 2 exams, both non-calculator.\nBoth papers are 1 hour and 30 minutes long, and consist of multiple choice questions, short response questions and extended response answers.\nYou will also have to undertake a non-examined programming assessment(NEA), using a high-level text-based programming language.\nMore information can be found on pages 22-23 of the specification."
+            ]
+        }
+    ]
+}

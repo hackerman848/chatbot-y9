@@ -1,0 +1,92 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello, thanks for visiting",
+                "Good to see you again",
+                "Hi there, how can I help?"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "help",
+            "patterns": [
+                "help",
+                "info",
+                "information"
+            ],
+            "responses": [
+                "Interact with the bot by typing in commands.\nMake sure to spell your words correctly, so that the bot understands them.\nWhen chatting with ChatBot, type \"spec\" or \"specification\" to go to SpecBot,\nwho will answer all the questions about the specification and the exams.\nWhen chatting with SpecBot, type \"quit\" to go back to chatting with ChatBot.\nWhen chatting with ChatBot, type \"quit\" to stop chatting."
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting",
+                "Have a nice day",
+                "Bye! Come back again soon."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ]
+        },
+        {
+            "tag": "schoolopinion",
+            "patterns": [
+                "school",
+                "What is school like?",
+                "Do you like school?",
+                "How is school?"
+            ],
+            "responses": [
+                "School is great! You should stay at school and pick Computer Science for GCSE!",
+                "School is good, but it could be better if you picked Computer Science for GCSE!"
+            ]
+        },
+        {
+            "tag": "computingteachers",
+            "patterns": [
+                "teacher",
+                "teachers",
+                "who are the computing teachers"
+            ],
+            "responses": [
+                "There are 4 Computer Science teachers for GCSE: Mr Timmins, Mr Smith, Mr Carr and Mr Cummins. \n You will have one of them as your teacher next year."
+            ]
+        },
+        {
+            "tag": "specification",
+            "patterns": [
+                "spec",
+                "specification",
+                "content",
+                "course content"
+            ],
+            "responses": [
+                "empty"
+            ]
+        }
+    ]
+}
