@@ -123,7 +123,7 @@ def chat():
         for tg in data["intents"]:
             if tg['tag'] == tag:
                 responses = tg['responses'] #after finding correct response, take the response from the json
-        if x > 0.5:  # threshold
+        if x > 0.6:  # threshold
             if tag == "specification":
                 specbot.chat() #switches to specbot if about the specification
             else:
