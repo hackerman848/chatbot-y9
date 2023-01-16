@@ -121,7 +121,7 @@ def chat():
         for tg in data["intents"]:
             if tg['tag'] == tag:
                 responses = tg['responses']
-        if x>0.5: #threshold
+        if x>0.6: #threshold
              print(random.choice(responses))
              print()
         else:
